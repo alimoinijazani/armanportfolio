@@ -69,6 +69,7 @@ h5{
 ul{list-style-type: none;}
 a{text-decoration:none}
 img{max-width:100%;height:auto}
+
 /* reusable css class */
 .section{padding:2rem 0 4rem}
 .section__title{
@@ -81,6 +82,15 @@ img{max-width:100%;height:auto}
 }
 .section__title,.section__subtitle{
     text-align:center
+}
+.readmore{
+    display:none
+}
+.readmore-show{
+    display:inline
+}
+.readmore-btn{
+    cursor: pointer;
 }
 /* layout */
 .container{max-width:768px;
@@ -202,7 +212,7 @@ margin-right:1.5rem
     fill:var(--first-color)
 }
 .home__blob-img{
-    width:170px
+    width:200px
 }
 
 .home__data{
@@ -251,7 +261,8 @@ margin-right:1.5rem
     color:#fff;
     padding:1rem;
     border-radius:.5rem;
-    font-weight:var(--font-medium)
+    font-weight:var(--font-medium);
+    border:0
 }
 .button:hover{
     background-color: var(--first-color-alt);
@@ -730,6 +741,8 @@ for medium device */
 
 .portfolio__img{
     width: 320px;
+    max-height:100
+  
 
 }
 .portfolio__content{
