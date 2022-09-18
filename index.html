@@ -10,6 +10,11 @@
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <!-- header -->
@@ -101,9 +106,9 @@
                   />
                   <image
                     class="home__blob-img"
-                    x="12"
-                    y="18"
-                    href="./img/perfil.png"
+                    x="0"
+                    y="0"
+                    href="./img/arman1.jpg"
                   />
                 </g>
               </svg>
@@ -147,25 +152,29 @@
                 <a href="#contact" class="button button--flex"
                   >Contact Me<i class="uil uil-message button__icon"></i
                 ></a>
-                <a download="" href="" class="button button--flex"
+                <a
+                  download=""
+                  href="./Arman Moini Jazani-CV.pdf"
+                  class="button button--flex"
                   >download cv
                   <i class="uil uil-download-alt button__icon"></i>
                 </a>
               </div>
             </div>
           </div>
-          <div class="home__scroll">
+          <!-- <div class="home__scroll">
             <a href="#about" class="home__scroll-button button--flex"
               ><i class="uil uil-mouse-alt home__scroll-mouse"></i
               ><span class="home__scroll-name">Scroll Down</span
               ><i class="uil uil-arrow-down home__scroll-arrow"></i
             ></a>
-          </div>
+          </div> -->
         </div>
       </section>
 
       <!-- about -->
-      <section class="about section" id="honours">
+
+      <section class="about section" id="honours" data-aos="fade-up">
         <h1 class="section__title">Honours</h1>
         <span class="section__subtitle">my award and houneres</span>
         <div class="about__container container grid">
@@ -175,10 +184,8 @@
                 <li class="award__list-item">
                   B3X postdoctoral research scholarship ($ 110,000), Fonds de
                   Recherche du Québec (FRQNT), QC, Canada (2021-2023)
-                  <span id="dots">...</span>
                 </li>
-
-                <span id="more">
+                <span class="readmore">
                   <li class="award__list-item">
                     Concordia accelerator award ($ 5,000), Concordia University,
                     QC, Canada (2021).
@@ -238,18 +245,18 @@
                     Concordia University, QC, Canada (2021).
                   </li>
                 </span>
-                <span
-                  class="button button--flex button--link button--small services__button"
-                  id="myBtn"
-                  >read more</span
-                >
               </ul>
+              <span
+                class="button button--flex button--link button--small readmore-btn"
+                >read more</span
+              >
             </div>
           </div>
         </div>
       </section>
+
       <!-- Skills -->
-      <section class="section skills" id="skills">
+      <section class="section skills" id="skills" data-aos="fade-left">
         <h2 class="section__title">Skills</h2>
         <span class="section__subtitle">my technical level</span>
         <div class="skills__container container grid">
@@ -489,7 +496,11 @@
       </section>
 
       <!-- qualification -->
-      <section class="section qualification" id="qualification">
+      <section
+        class="section qualification"
+        id="qualification"
+        data-aos="fade-right"
+      >
         <h2 class="section__title">Qualification</h2>
         <span class="section__subtitle">my personal journy</span>
         <div class="qualification__container container">
@@ -681,7 +692,11 @@
         </div>
       </section>
       <!-- Conference presentations -->
-      <section class="section presentation" id="presentation">
+      <section
+        class="section presentation"
+        id="presentation"
+        data-aos="fade-down"
+      >
         <h2 class="section__title">Conference presentations</h2>
         <span class="section__subtitle">all my conference</span>
         <div class="section__container container">
@@ -693,222 +708,302 @@
               Division (MSED) of Canadian Society of Chemistry (CSC), February
               25th, 2021. (Invited talk)
             </li>
+            <span class="readmore">
+              <li class="award__list-item">
+                2. Arman Moini Jazani and Jung Kwon Oh. Dual acidic pH- and
+                glutathione-responsive degradable polymeric micelles for
+                anti-cancer drug delivery. Worlds Biomaterial Congress (WBC,
+                Online), Glasgow, Scotland, December 11-15th 2020. (oral)
+              </li>
 
-            <li class="award__list-item">
-              2. Arman Moini Jazani and Jung Kwon Oh. Dual acidic pH- and
-              glutathione-responsive degradable polymeric micelles for
-              anti-cancer drug delivery. Worlds Biomaterial Congress (WBC,
-              Online), Glasgow, Scotland, December 11-15th 2020. (oral)
-            </li>
-            <li class="award__list-item">
-              3. Arman Moini Jazani and Jung Kwon Oh. Synthesis of
-              PEG-disulfide-PLA block copolymers. Advance polymeric materials.
-              Montreal, QC, Canada, July 3rd, 2019. (oral for industry)
-            </li>
-            <li class="award__list-item">
-              4. Yuhang Huang, Arman Moini Jazani, Jung Kwon Oh, Mathew Moffitt.
-              Microfluidic control of structure and drug delivery properties of
-              biological stimuli-responsive block copolymer nanoparticles. 102nd
-              Canadian Chemistry Conference (CSC), Quebec City, QC, Canada, June
-              3-7th 2019. (oral)
-            </li>
-            <li class="award__list-item">
-              5. Arman Moini Jazani and Jung Kwon Oh. Dual location
-              acid-degradable polymeric micelles with self-accelerating
-              hydrolysis properties. 102nd Canadian Chemistry Conference (CSC),
-              Quebec, Canada, June 3-7th 2019. (oral)
-            </li>
-            <li class="award__list-item">
-              6. Arman Moini Jazani and Jung Kwon Oh. Reactive
-              copolymer-stabilized aluminum oxide nanoparticles: a
-              proof-of-concept for development of robust self-healable
-              heterogeneous crosslinked networks. Dural Inc. Montreal, QC,
-              Canada, December 17th, 2018. (oral for industry)
-            </li>
-            <li class="award__list-item">
-              7. Arman Moini Jazani and Jung Kwon Oh. Synthesis of well-defined,
-              multi stimuli responsive degradable amphiphilic block copolymer
-              via combining ATRP and RAFT polymerization: Toward dual reduction
-              and acidic pH labile shell-sheddable micelles. 2nd Annual
-              symposium of Quebec Center for Advanced Materials (QCAM-CQMF),
-              Montreal, QC, Canada, May 3-4th, 2018. (oral)
-            </li>
-            <li class="award__list-item">
-              8. Arman Moini Jazani and Jung Kwon Oh. DL-DSRD Platform of Block
-              Copolymer Nanoassemblies for Tumor-targeting Intracellular
-              Delivery. NorthernChem Inc. Niagara Falls, ON, Canada, March 13th,
-              2018. (oral for industry)
-            </li>
-            <li class="award__list-item">
-              9. Arman Moini Jazani and Jung Kwon Oh. Smart nanomedicines with
-              dual location dual stimuli-responsive polymeric nanoassemblies
-              exhibiting location-specific degradation and enhanced drug
-              release. 1st Annual symposium of Quebec Center for Advanced
-              Materials (QCAM), Sherbrooke, QC, Canada, October 23-24th, 2017.
-              (oral)
-            </li>
-            <li class="award__list-item">
-              10. Arman Moini Jazani, Keaton Maryu-Li and Jung Kwon Oh.
-              Exploration of a new strategy utilizing ATRP to synthesize dual
-              location dual acidic pH/reduction-responsive degradable block
-              copolymer. 1st Annual symposium of Quebec Center for Advanced
-              Materials (QCAM), Sherbrooke, QC, Canada, October 23-24th, 2017.
-              (poster)
-            </li>
-            <li class="award__list-item">
-              11. Arman Moini Jazani and Jung Kwon Oh. Dual location dual acidic
-              pH/glutathione-responsive block copolymer strategy for precise
-              control of drug release and cellular uptake. 100th Canadian
-              Chemistry Conference (CSC), Toronto, Canada, May28-June 1st, 2017.
-              (poster)
-            </li>
-            <li class="award__list-item">
-              12. Arman Moini Jazani and Jung Kwon Oh. Dual reduction/acidic
-              pH-responsive block copolymer micelles: synthesis, self-assembly
-              and stimuli responsive enhanced release. Canadian Society for
-              Pharmaceutical Science/Canadian Chapter of the Controlled Release
-              Society (CSPS/CC-CRS) Conference, Montreal, Canada, May 10-12th,
-              2017. (poster)
-            </li>
-            <li class="award__list-item">
-              13. Arman Moini Jazani and Jung Kwon Oh. Dual Iocation dual
-              reduction/pH-responsive degradable block copolymer micelles for
-              enhanced cellular uptake and drug-controlled release. 37th
-              Canadian High Polymer Forum (CHPF), Gananoque, ON, Canada, August
-              9-11th, 2016. (poster)
-            </li>
-            <li class="award__list-item">
-              14. Arman Moini Jazani and Jung Kwon Oh. Multi-location multiple
-              stimuli-responsive degradation (ML-MSRD) of block copolymer-based
-              micelles for rapid and controlled release. CSCAS/CQMF Advanced
-              Materials Annual Meeting, Montreal, QC, Canada, May 3-4th, 2016.
-              (poster)
-            </li>
+              <li class="award__list-item">
+                3. Arman Moini Jazani and Jung Kwon Oh. Synthesis of
+                PEG-disulfide-PLA block copolymers. Advance polymeric materials.
+                Montreal, QC, Canada, July 3rd, 2019. (oral for industry)
+              </li>
+              <li class="award__list-item">
+                4. Yuhang Huang, Arman Moini Jazani, Jung Kwon Oh, Mathew
+                Moffitt. Microfluidic control of structure and drug delivery
+                properties of biological stimuli-responsive block copolymer
+                nanoparticles. 102nd Canadian Chemistry Conference (CSC), Quebec
+                City, QC, Canada, June 3-7th 2019. (oral)
+              </li>
+              <li class="award__list-item">
+                5. Arman Moini Jazani and Jung Kwon Oh. Dual location
+                acid-degradable polymeric micelles with self-accelerating
+                hydrolysis properties. 102nd Canadian Chemistry Conference
+                (CSC), Quebec, Canada, June 3-7th 2019. (oral)
+              </li>
+              <li class="award__list-item">
+                6. Arman Moini Jazani and Jung Kwon Oh. Reactive
+                copolymer-stabilized aluminum oxide nanoparticles: a
+                proof-of-concept for development of robust self-healable
+                heterogeneous crosslinked networks. Dural Inc. Montreal, QC,
+                Canada, December 17th, 2018. (oral for industry)
+              </li>
+              <li class="award__list-item">
+                7. Arman Moini Jazani and Jung Kwon Oh. Synthesis of
+                well-defined, multi stimuli responsive degradable amphiphilic
+                block copolymer via combining ATRP and RAFT polymerization:
+                Toward dual reduction and acidic pH labile shell-sheddable
+                micelles. 2nd Annual symposium of Quebec Center for Advanced
+                Materials (QCAM-CQMF), Montreal, QC, Canada, May 3-4th, 2018.
+                (oral)
+              </li>
+              <li class="award__list-item">
+                8. Arman Moini Jazani and Jung Kwon Oh. DL-DSRD Platform of
+                Block Copolymer Nanoassemblies for Tumor-targeting Intracellular
+                Delivery. NorthernChem Inc. Niagara Falls, ON, Canada, March
+                13th, 2018. (oral for industry)
+              </li>
+              <li class="award__list-item">
+                9. Arman Moini Jazani and Jung Kwon Oh. Smart nanomedicines with
+                dual location dual stimuli-responsive polymeric nanoassemblies
+                exhibiting location-specific degradation and enhanced drug
+                release. 1st Annual symposium of Quebec Center for Advanced
+                Materials (QCAM), Sherbrooke, QC, Canada, October 23-24th, 2017.
+                (oral)
+              </li>
+              <li class="award__list-item">
+                10. Arman Moini Jazani, Keaton Maryu-Li and Jung Kwon Oh.
+                Exploration of a new strategy utilizing ATRP to synthesize dual
+                location dual acidic pH/reduction-responsive degradable block
+                copolymer. 1st Annual symposium of Quebec Center for Advanced
+                Materials (QCAM), Sherbrooke, QC, Canada, October 23-24th, 2017.
+                (poster)
+              </li>
+              <li class="award__list-item">
+                11. Arman Moini Jazani and Jung Kwon Oh. Dual location dual
+                acidic pH/glutathione-responsive block copolymer strategy for
+                precise control of drug release and cellular uptake. 100th
+                Canadian Chemistry Conference (CSC), Toronto, Canada, May28-June
+                1st, 2017. (poster)
+              </li>
+              <li class="award__list-item">
+                12. Arman Moini Jazani and Jung Kwon Oh. Dual reduction/acidic
+                pH-responsive block copolymer micelles: synthesis, self-assembly
+                and stimuli responsive enhanced release. Canadian Society for
+                Pharmaceutical Science/Canadian Chapter of the Controlled
+                Release Society (CSPS/CC-CRS) Conference, Montreal, Canada, May
+                10-12th, 2017. (poster)
+              </li>
+              <li class="award__list-item">
+                13. Arman Moini Jazani and Jung Kwon Oh. Dual Iocation dual
+                reduction/pH-responsive degradable block copolymer micelles for
+                enhanced cellular uptake and drug-controlled release. 37th
+                Canadian High Polymer Forum (CHPF), Gananoque, ON, Canada,
+                August 9-11th, 2016. (poster)
+              </li>
+              <li class="award__list-item">
+                14. Arman Moini Jazani and Jung Kwon Oh. Multi-location multiple
+                stimuli-responsive degradation (ML-MSRD) of block
+                copolymer-based micelles for rapid and controlled release.
+                CSCAS/CQMF Advanced Materials Annual Meeting, Montreal, QC,
+                Canada, May 3-4th, 2016. (poster)
+              </li>
+            </span>
           </ul>
+          <span
+            class="button button--flex button--small button--link readmore-btn"
+            >read more</span
+          >
         </div>
       </section>
 
-      <section class="section publication" id="publication">
+      <section class="section publication" id="publication" data-aos="zoom-in">
         <h2 class="section__title">Publication</h2>
         <span class="section__subtitle">here's my publication list</span>
-        <div class="section__container container">
-          <ul class="presentaion__list">
-            <li class="award__list-item">
-              1. Antonina Simakova, Saadyah Averick, Arman Moini Jazani and
-              Krzysztof Matyjaszewski. Controlling Size and Surface Chemistry of
-              Cationic Nanogels by Inverse Microemulsion ATRP, Macromolecular
-              chemistry and physics, 2022, Macromol. Chem. Phys. 2022, 2200210.
-              <img src="./img/1.png" alt="" />
-            </li>
-            <li class="award__list-item">
-              2. Arman Moini Jazani and Jung Kwon Oh. Synthesis of multiple
-              stimuli-responsive degradable block copolymers via facile carbonyl
-              imidazole-induced postpolymerization modification, Polymer
-              Chemistry, 2022, 13, 4557-4568.
-              <img src="./img/2.png" alt="" />
-            </li>
-            <li class="award__list-item">
-              3. Moonhyun Choi, Arman Moini Jazani, Jung Kwon Oh and Seung Man
-              Noh. Perfluorocarbon nanodroplets for dual delivery with
-              ultrasound/GSH-responsive release of model drug and passive
-              release of nitric oxide, Polymers, 2022, 14, 2240.
-              <img src="./img/3.png" alt="" />
-            </li>
-            <li class="award__list-item">
-              4. Arman Moini Jazani, Newsha Arezi, Chaitra Shetty, Jung Kwon Oh.
-              Shell-Sheddable/Core-Degradable ABA Triblock Copolymer
-              Nanoassemblies: Synthesis via RAFT and Concurrent ATRP/RAFT
-              Polymerization and Drug Delivery Application, Molecular
-              Pharmaceutics, 2021, 19, 1786-1794.
-              <img src="./img/4.png" alt="" />
-            </li>
-            <li class="award__list-item">
-              5. Xiaolei Hu, Arman Moini Jazani, and Jung Kwon Oh. Recent
-              advances in development of imine-based acid-degradable polymeric
-              nanoassemblies for intracellular drug delivery, Polymer, 2021,
-              230, 124024.
-              <img src="./img/5.jpg" alt="" />
-            </li>
-            <li class="award__list-item">
-              6. Arman Moini Jazani, Chaitra Shetty, Hourieh Movasat, Kamaljeet
-              K. Bawa and Jung Kwon Oh. Imidazole-mediated dual location
-              disassembly of acid-degradable intracellular drug delivery block
-              copolymer nanoassemblies, Macromolecular Rapid Communications,
-              2021, 2100262.
-              <img src="./img/6.png" alt="" />
-            </li>
-            <li class="award__list-item">
-              7. Ge Zhang, Twinkal Patel, Pothanagandhi Nellepalli, Shubham
-              Bhagat, Hanees Hase, Arman Moini Jazani, Ingo Salzmann, Zhibin Ye
-              and Jung Kwon Oh. Macromolecularly engineered thermoreversible
-              heterogeneous self‐healable networks encapsulating reactive
-              multidentate block copolymer‐stabilized carbon nanotubes,
-              Macromolecular Rapid Communications, 2021, 200514.
-              <img src="./img/7.png" alt="" />
-            </li>
-            <li class="award__list-item">
-              8. Yuhang Huang, Arman Moini Jazani, Elliot P. Howell, Lisa
-              Reynolds, Jung Kwon Oh and Matthew G. Moffitt, ACS Biomaterials
-              Science & Engineering, 2020, 6, 9, 5069-5083.
-              <img src="./img/8.gif" alt="" />
-            </li>
-            <li class="award__list-item">
-              9. Arman Moini Jazani and Jung Kwon Oh. Development and
-              disassembly of single and multiple acid-cleavable block copolymer
-              nanoassemblies for drug delivery, Polymer Chemistry, 2020, 11,
-              2934-2954.
-              <img src="./img/9.png" alt="" />
-            </li>
-            <li class="award__list-item">
-              10. Kamaljeet K. Bawa, Arman Moini Jazani, Zhibin Ye, Jung Kwon
-              Oh. Synthesis of degradable PLA-based diblock copolymers with dual
-              acid/reduction-cleavable junction, Polymer, 2020, 194, 122391.
-              <img src="./img/10.jpg" alt="" />
-            </li>
-            <li class="award__list-item">
-              11. Keaton Maruya-Li, Chaitra Shetty, Arman Moini Jazani, Newsha
-              Arezi, Jung Kwon Oh., ACS Omega, 2020, 5, 3734–3742.
-              <img src="./img/11.png" alt="" />
-            </li>
-            <li class="award__list-item">
-              12. Yuhang Huang, Arman Moini Jazani, Elliot P. Howell, Jung Kwon
-              Oh, Matthew G. Moffitt. Controlled microfluidic synthesis of
-              biological stimuli-responsive polymer nanoparticles. ACS Applied
-              Materials and Interface, 2020, 12, 1, 177-190.
-              <img src="./img/12.gif" alt="" />
-            </li>
-            <li class="award__list-item">
-              13. Arman Moini Jazani, Newsha Arezi, Chaitra Shetty, Sunghwa
-              Hong, Haowen Li, Xiangtao Wang, Jung Kwon Oh. Tumor-targeting
-              intracellular drug delivery based on dual
-              acid/reduction-degradable nanoassemblies with ketal interface and
-              disulfide core locations. Polymer Chemistry, 2019, 10, 2840-2853.
-              <img src="./img/13.png" alt="" />
-            </li>
-            <li class="award__list-item">
-              14. Kamaljeet K. Bawa, Arman Moini Jazani, Chaitra Shetty and Jung
-              Kwon Oh. PLA-based triblock copolymer micelles exhibiting dual
-              acidic pH/reduction responses at dual core and core/corona
-              interface location. Macromolecular Rapid Communications, 2018, 39,
-              1800477.
-              <img src="./img/14.jpg" alt="" />
-            </li>
-            <li class="award__list-item">
-              15. Arman Moini Jazani, Newsha Arezi, Keaton Maruya-Li, Sungmin
-              Jung, Jung Kwon Oh. Facile strategies to synthesize dual location
-              dual acidic pH/ reduction-responsive degradable block copolymers
-              bearing acetal/disulfide block junctions and disulfide pendants.
-              ACS Omega, 2018, 3, 8980- 8991.
-              <img src="./img/15.png" alt="" />
-            </li>
-            <li class="award__list-item">
-              16. Arman Moini Jazani and Jung Kwon Oh. Dual location, dual
-              acidic pH/reduction-responsive degradable block copolymer:
-              synthesis and investigation of ketal linkage instability under
-              ATRP conditions. Macromolecules, 2017, 50, 9427-9436.
-              <img src="./img/16.gif" alt="" />
-            </li>
-          </ul>
+        <div class="portfolio__container container swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="portfolio__content grid swiper-slide">
+              <img src="./img/1.png" alt="" class="portfolio__img" />
+              <div class="portfolio__data">
+                <p class="portfolio__description">
+                  1. Antonina Simakova, Saadyah Averick, Arman Moini Jazani and
+                  Krzysztof Matyjaszewski. Controlling Size and Surface
+                  Chemistry of Cationic Nanogels by Inverse Microemulsion ATRP,
+                  Macromolecular chemistry and physics, 2022, Macromol. Chem.
+                  Phys. 2022, 2200210.
+                </p>
+              </div>
+            </div>
+            <div class="portfolio__content grid swiper-slide">
+              <img src="./img/2.png" alt="" class="portfolio__img" />
+              <div class="portfolio__data">
+                <p class="portfolio__description">
+                  2. Arman Moini Jazani and Jung Kwon Oh. Synthesis of multiple
+                  stimuli-responsive degradable block copolymers via facile
+                  carbonyl imidazole-induced postpolymerization modification,
+                  Polymer Chemistry, 2022, 13, 4557-4568.
+                </p>
+              </div>
+            </div>
+            <div class="portfolio__content grid swiper-slide">
+              <img src="./img/3.png" alt="" class="portfolio__img" />
+              <div class="portfolio__data">
+                <p class="portfolio__description">
+                  3. Moonhyun Choi, Arman Moini Jazani, Jung Kwon Oh and Seung
+                  Man Noh. Perfluorocarbon nanodroplets for dual delivery with
+                  ultrasound/GSH-responsive release of model drug and passive
+                  release of nitric oxide, Polymers, 2022, 14, 2240.
+                </p>
+              </div>
+            </div>
+            <div class="portfolio__content grid swiper-slide">
+              <img src="./img/4.png" alt="" class="portfolio__img" />
+              <div class="portfolio__data">
+                <p class="portfolio__description">
+                  4. Arman Moini Jazani, Newsha Arezi, Chaitra Shetty, Jung Kwon
+                  Oh. Shell-Sheddable/Core-Degradable ABA Triblock Copolymer
+                  Nanoassemblies: Synthesis via RAFT and Concurrent ATRP/RAFT
+                  Polymerization and Drug Delivery Application, Molecular
+                  Pharmaceutics, 2021, 19, 1786-1794.
+                </p>
+              </div>
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img src="./img/5.jpg" alt="" class="portfolio__img" />
+              <div class="portfolio__data">
+                <p class="portfolio__description">
+                  5. Xiaolei Hu, Arman Moini Jazani, and Jung Kwon Oh. Recent
+                  advances in development of imine-based acid-degradable
+                  polymeric nanoassemblies for intracellular drug delivery,
+                  Polymer, 2021, 230, 124024.
+                </p>
+              </div>
+            </div>
+            <div class="portfolio__content grid swiper-slide">
+              <img src="./img/6.png" alt="" class="portfolio__img" />
+              <div class="portfolio__data">
+                <p class="portfolio__description">
+                  6. Arman Moini Jazani, Chaitra Shetty, Hourieh Movasat,
+                  Kamaljeet K. Bawa and Jung Kwon Oh. Imidazole-mediated dual
+                  location disassembly of acid-degradable intracellular drug
+                  delivery block copolymer nanoassemblies, Macromolecular Rapid
+                  Communications, 2021, 2100262.
+                </p>
+              </div>
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img src="./img/7.png" alt="" class="portfolio__img" />
+              <div class="portfolio__data">
+                <p class="portfolio__description">
+                  7. Ge Zhang, Twinkal Patel, Pothanagandhi Nellepalli, Shubham
+                  Bhagat, Hanees Hase, Arman Moini Jazani, Ingo Salzmann, Zhibin
+                  Ye and Jung Kwon Oh. Macromolecularly engineered
+                  thermoreversible heterogeneous self‐healable networks
+                  encapsulating reactive multidentate block copolymer‐stabilized
+                  carbon nanotubes, Macromolecular Rapid Communications, 2021,
+                  200514.
+                </p>
+              </div>
+            </div>
+            <div class="portfolio__content grid swiper-slide">
+              <img src="./img/8.gif" alt="" class="portfolio__img" />
+              <div class="portfolio__data">
+                <p class="portfolio__description">
+                  8. Yuhang Huang, Arman Moini Jazani, Elliot P. Howell, Lisa
+                  Reynolds, Jung Kwon Oh and Matthew G. Moffitt, ACS
+                  Biomaterials Science & Engineering, 2020, 6, 9, 5069-5083.
+                </p>
+              </div>
+            </div>
+            <div class="portfolio__content grid swiper-slide">
+              <img src="./img/9.png" alt="" class="portfolio__img" />
+              <div class="portfolio__data">
+                <p class="portfolio__description">
+                  9. Arman Moini Jazani and Jung Kwon Oh. Development and
+                  disassembly of single and multiple acid-cleavable block
+                  copolymer nanoassemblies for drug delivery, Polymer Chemistry,
+                  2020, 11, 2934-2954.
+                </p>
+              </div>
+            </div>
+            <div class="portfolio__content grid swiper-slide">
+              <img src="./img/10.jpg" alt="" class="portfolio__img" />
+              <div class="portfolio__data">
+                <p class="portfolio__description">
+                  10. Kamaljeet K. Bawa, Arman Moini Jazani, Zhibin Ye, Jung
+                  Kwon Oh. Synthesis of degradable PLA-based diblock copolymers
+                  with dual acid/reduction-cleavable junction, Polymer, 2020,
+                  194, 122391.
+                </p>
+              </div>
+            </div>
+            <div class="portfolio__content grid swiper-slide">
+              <img src="./img/11.png" alt="" class="portfolio__img" />
+              <div class="portfolio__data">
+                <p class="portfolio__description">
+                  11. Keaton Maruya-Li, Chaitra Shetty, Arman Moini Jazani,
+                  Newsha Arezi, Jung Kwon Oh., ACS Omega, 2020, 5, 3734–3742.
+                </p>
+              </div>
+            </div>
+            <div class="portfolio__content grid swiper-slide">
+              <img src="./img/12.gif" alt="" class="portfolio__img" />
+              <div class="portfolio__data">
+                <p class="portfolio__description">
+                  12. Yuhang Huang, Arman Moini Jazani, Elliot P. Howell, Jung
+                  Kwon Oh, Matthew G. Moffitt. Controlled microfluidic synthesis
+                  of biological stimuli-responsive polymer nanoparticles. ACS
+                  Applied Materials and Interface, 2020, 12, 1, 177-190.
+                </p>
+              </div>
+            </div>
+            <div class="portfolio__content grid swiper-slide">
+              <img src="./img/13.png" alt="" class="portfolio__img" />
+              <div class="portfolio__data">
+                <p class="portfolio__description">
+                  13. Arman Moini Jazani, Newsha Arezi, Chaitra Shetty, Sunghwa
+                  Hong, Haowen Li, Xiangtao Wang, Jung Kwon Oh. Tumor-targeting
+                  intracellular drug delivery based on dual
+                  acid/reduction-degradable nanoassemblies with ketal interface
+                  and disulfide core locations. Polymer Chemistry, 2019, 10,
+                  2840-2853.
+                </p>
+              </div>
+            </div>
+            <div class="portfolio__content grid swiper-slide">
+              <img src="./img/14.jpg" alt="" class="portfolio__img" />
+              <div class="portfolio__data">
+                <p class="portfolio__description">
+                  14. Kamaljeet K. Bawa, Arman Moini Jazani, Chaitra Shetty and
+                  Jung Kwon Oh. PLA-based triblock copolymer micelles exhibiting
+                  dual acidic pH/reduction responses at dual core and
+                  core/corona interface location. Macromolecular Rapid
+                  Communications, 2018, 39, 1800477.
+                </p>
+              </div>
+            </div>
+            <div class="portfolio__content grid swiper-slide">
+              <img src="./img/15.png" alt="" class="portfolio__img" />
+              <div class="portfolio__data">
+                <p class="portfolio__description">
+                  15. Arman Moini Jazani, Newsha Arezi, Keaton Maruya-Li,
+                  Sungmin Jung, Jung Kwon Oh. Facile strategies to synthesize
+                  dual location dual acidic pH/ reduction-responsive degradable
+                  block copolymers bearing acetal/disulfide block junctions and
+                  disulfide pendants. ACS Omega, 2018, 3, 8980- 8991.
+                </p>
+              </div>
+            </div>
+            <div class="portfolio__content grid swiper-slide">
+              <img src="./img/16.gif" alt="" class="portfolio__img" />
+              <div class="portfolio__data">
+                <p class="portfolio__description">
+                  16. Arman Moini Jazani and Jung Kwon Oh. Dual location, dual
+                  acidic pH/reduction-responsive degradable block copolymer:
+                  synthesis and investigation of ketal linkage instability under
+                  ATRP conditions. Macromolecules, 2017, 50, 9427-9436.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
         </div>
       </section>
       <!-- CONTACT ME -->
@@ -945,14 +1040,18 @@
               </div>
             </div>
           </div>
-          <form action="https://formsubmit.co/moini_alessandro_13@yahoo.com" method="post" class="contact__form grid">
+          <form
+            action="https://formspree.io/f/mlevgqyz"
+            method="post"
+            class="contact__form grid"
+          >
             <div class="contact__inputs grid">
               <div class="contact__content">
                 <label for="" class="contact__label">Name</label>
                 <input type="text" class="contact__input" />
               </div>
               <div class="contact__content">
-                <label for="" class="contact__label">Email</label>
+                <label for="" name="email" class="contact__label">Email</label>
                 <input type="email" class="contact__input" />
               </div>
             </div>
@@ -963,7 +1062,7 @@
             <div class="contact__content">
               <label for="" class="contact__label">Message</label>
               <textarea
-                name=""
+                name="message"
                 id=""
                 cols="0"
                 rows="7"
@@ -971,7 +1070,7 @@
               ></textarea>
             </div>
             <div>
-            <button type="submit" class="button button--flex"></button>
+              <button type="submit" class="button button--flex">
                 send message
                 <i class="uil uil-message button__icon"></i>
               </button>
@@ -1020,7 +1119,12 @@
         <p class="footer__copy">&#169;ali.All right reserved</p>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
     <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
